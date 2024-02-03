@@ -1,0 +1,49 @@
+#divG{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0%;
+}
+#header{
+    display: flex;
+    width: 100%;
+    height: 2cm;
+    background-color: black;
+    color: white;
+}
+body{
+    padding: 0%;
+    margin: 0%;
+}
+#letraHeader{
+    display: flex;
+    font-family: monospace;
+    font-size: 20px;
+    align-items: center;
+}
+#divNav{
+    display: flex;
+    justify-content: right;
+    display: flex;
+    font-family: monospace;
+    font-size: 20px;
+    margin: 2%;
+}
+
+#table{
+    display: flex;
+    width:100%;
+    height: auto;
+    overflow: auto;
+}
+
+td{
+    text-align: center;
+    border: 2px solid black;
+}
+
+#tocar:hover{
+    color: white;
+    font-size: 25px;
+    background-color: black;
+    border: 5px solid white;
+}
