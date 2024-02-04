@@ -1,29 +1,54 @@
 <!DOCTYPE html>
 
 <html>
-    <head>
-        <title>CIFS-CONTACTO</title>
-        <link rel="stylesheet" href="./css/esProyectos.css">
-    </head>
-    <body>
-        <div>
-            <header>
-                <button onclick="window.open('/index.html','_self')">
-                    BACK
-                </button>
-            </header>
-        </div>
-        <div style="margin: 8%;">
-            <div style="display: flex; justify-content:center; align-items:center">
-                <img src="./img/Loki.png" alt="">
+  <head>
+    <title>CIFS-CONTACTO</title>
+    <link rel="stylesheet" href="./css/esContacto.css" />
+  </head>
+  <body style="background-color: black">
+    <header style="display: flex; justify-content: left">
+      <button onclick="window.open('/index.html','_self')" id="buttonBack">
+        BACK
+      </button>
+    </header>
+    <div style="display: flex; justify-content: center" id="pd">
+      <div id="divG">
+        <form action="">
+          <div style="padding-bottom: 5%; display:flex;justify-content:center">
+            <h1 style="font-family: monospace; font-size:40px">CONTACTO</h1>
+          </div>
+          <div style="display: flex; justify-content: center">
+            <div style="padding-right: 5%">
+              <label for="Nombre">Nombre</label>
             </div>
-            <div>
-                <span style="display: flex; justify-content:center; align-items:center">
-                    <h1>
-                        404 NOT FOUND
-                    </h1>
-                </span>
+            <div style="width: 50%;">
+              <input type="text" id="Nombre" name="Nombre" style="width: 100%;"/>
             </div>
-        </div>
-    </body>
+          </div>
+
+          <br />
+          <div style="display: flex; justify-content: center">
+            <div style="padding-right: 6.5%">
+              <label for="Correo">Correo</label>
+            </div>
+            <div style="width: 50%;">
+              <input type="email" name="Correo" id="Correo" style="width: 100%;"/>
+
+            </div>
+          </div>          
+          <br />
+
+          <div style="display: flex; justify-content: center">
+            <div style="padding-right: 6.5%"> 
+              <label for="Asunto">Asunto</label>
+            </div>
+            <div style="width: 50%;">
+              <textarea name="Asunto" id="Asunto" cols="30" rows="10" width="100px" height="100px"></textarea>
+
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
 </html>
