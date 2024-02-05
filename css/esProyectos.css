@@ -7,7 +7,6 @@
 h1{
     font-family: monospace;
     font-size: 40px;
-    animation: zoomInOut 2s infinite;
     color:white
 }
 
@@ -17,9 +16,6 @@ h1{
     100%{transform: scale(1);}
 }
 
-img{
-    animation: zoomInLoki 2s infinite;
-}
 
 body{
     background-color: black;
@@ -31,4 +27,15 @@ button{
     font-family: monospace;
     color: white;
     background-color: black;
+}
+
+#pFound{
+    text-align: center;
+    width: 60%;
+    height:auto;
+}
+
+#ButtonIr:hover{
+    width: 30%;
+    animation: zoomInOut 2s infinite;
 }
